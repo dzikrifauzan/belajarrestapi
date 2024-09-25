@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">Sign Up</h1>
+        
+        <div>
+            <h2>Masukan nama dan nomor telepon Anda</h2>
+            <form id="item-form">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="text" id="noTelepon" placeholder="Phone Number" required>
+                <button type="submit">Input</button>
+            </form>
+        </div>
+       
+        <div id="button-container">   
+            <button id="toggle-items">Lihat semua data</button>
+            <button id="delete-items">Hapus semua data</button>
+        </div>
+        <div id="table-container">
+            <table id="item-table">
+                <thead id="table-header">
+                    <tr>
+                        <th class="no">No.</th>
+                        <th class="name">Name</th>
+                        <th class="phone">Phone Number</th>
+                        <th class="action">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="item-list">
+                    <!-- Data dari database akan di-render di sini -->
+                </tbody> 
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

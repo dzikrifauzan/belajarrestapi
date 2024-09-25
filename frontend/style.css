@@ -1,0 +1,129 @@
+/* Gaya umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Kontainer untuk elemen utama */
+#container {
+    max-width: 1200px; /* Atur lebar maksimum kontainer */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+#title {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Gaya untuk form input */
+#item-form input {
+    width: 100px;
+    height: fit-content;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Gaya untuk tombol submit pada form */
+#item-form button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#item-list { 
+    padding: 10px 20px;
+    background-color: #ff5100;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+
+}
+
+/* Gaya untuk tombol di luar tabel */
+#button-container {
+    margin-bottom: 20px;
+}
+
+#button-container button {
+    padding: 10px 20px;
+    background-color: #ff5100;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#button-container button:hover {
+    background-color: #ff0000;
+    
+}
+
+/* Gaya untuk tabel */
+#item-table {
+    width: 100%; /* Mengisi lebar penuh */
+    border-collapse: collapse; /* Gabungkan border antar sel */
+    font-size: 14px; /* Ukuran font */
+}
+
+/* Gaya untuk header tabel */
+#table-header th {
+    background-color: #e06005; /* Warna header */
+    color: white; /* Warna teks */
+    padding: 12px; /* Padding untuk header */
+}
+
+/* Gaya untuk sel tabel */
+#item-table td {
+    border: 1px solid #ddd; /* Border untuk sel */
+    text-align: center; /* Teks rata tengah */
+    padding: 10px; /* Padding dalam sel */
+}
+
+/* Gaya untuk baris tabel */
+#item-table tr {
+    background-color: #ae1616; /* Warna latar belakang baris */
+}
+
+
+/* Gaya untuk baris saat di-hover */
+#item-table tr:hover {
+    background-color: #e82222; /* Warna latar belakang saat di-hover */
+}
+
+/* Gaya untuk tombol action (delete) */
+#item-table button {
+    padding: 8px 12px; /* Padding untuk tombol */
+    background-color: #f44336; /* Warna tombol merah */
+    color: white; /* Warna teks putih */
+    border: none; /* Hilangkan border */
+    border-radius: 4px; /* Sudut tombol melengkung */
+    cursor: pointer; /* Ganti kursor menjadi pointer */
+}
+
+/* Gaya untuk tombol saat di-hover */
+#item-table button:hover {
+    background-color: #d32f2f; /* Warna tombol merah lebih gelap saat di-hover */
+}
+
+
+
