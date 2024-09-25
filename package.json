@@ -1,12 +1,15 @@
 {
   "dependencies": {
+    "body": "^5.1.0",
     "cors": "^2.8.5",
     "express": "^4.21.0",
-    "mysql2": "^3.11.3"
+    "mysql2": "^3.11.3",
+    "parser": "^0.1.4"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dzikrifauzan/belajarrestapi.git"},
+    "url": "git+https://github.com/dzikrifauzan/belajarrestapi.git"
+  },
   "name": "ying",
   "version": "1.0.0",
   "main": "index.js",
